@@ -11,6 +11,7 @@
       (process-send-string proc text)
       (process-send-eof proc))))
 
+(setq markdown-command "multimarkdown")
 (setq interprogram-cut-function 'paste-to-osx)
 (setq interprogram-paste-function 'copy-from-osx)
 ;; Enable backup files.
